@@ -126,7 +126,7 @@
 
 
 .feature {
-	background: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(../images/feature.jpg);
+	background: linear-gradient(to left, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.8)), url(../images/feature.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -146,6 +146,9 @@
 	margin: 0 0 30px 0;
 }
 
+.feature strong{
+	font-weight: 500;
+	color: #927f54;}
 /* ----- Feature Section Styling Ends ----- */
 
 

@@ -629,89 +629,14 @@ p {}
 
 }
 
-@media only screen and (min-width: 767px) and (max-width: 1024px) {
-	.features .features-list {
-		padding: 80px 0 0 0;
-	}
-
-	.split-content {
-		padding: 100px 100px 50px 50px;
-		text-align: left;
-	}
-}
-
-
-@media screen and (min-width: 400px) and (max-width: 600px) {
-
- .subscribe-form .mail {
-   padding: 0 30px 0 20px;
-   border-radius: 5px 0 0 5px;
- }
-
- .subscribe-form .submit-button {
-   padding: 0 5px 0 5px;
-   border-radius: 0 5px 5px 0;
- }
-}
-
 
 @media screen and (max-width: 399px) {
-
-	.cta-sub {
-		text-align: center;
-	}
-
-	.subscribe-form {
-		text-align: center;
-	}
-
- .subscribe-form .mail {
-	 text-align: center;
-   padding: 0 0 0 0;
-   border-radius: 5px 0 0 5px;
- }
-
- .subscribe-form .submit-button {
-   padding: 0 5px 0 5px;
-   border-radius: 0 5px 5px 0;
-	 margin-top: 15px;
- }
-
- .form .sub-form .subscribe-form {
- 	text-align: left;
- }
-
-
-  .form .sub-form .subscribe-form .mail {
- 	 text-align: center;
-    padding: 0 0 0 0;
-    border-radius: 5px 0 0 5px;
-  }
-
-  .form .sub-form .subscribe-form .submit-button {
-    padding: 0 5px 0 5px;
-    border-radius: 0 5px 5px 0;
- 	 margin-top: 15px;
-  }
 
  .back-to-top {
 	right: 10px;
 }
 
  }
-
- @media only screen and (min-width: 991px) and (max-width: 1201px) {
-
-	 .app-features .features-left, .app-features .features-right {
-	 	padding: 0 0 0 0;
-	 }
-
-	 .software .features .features-list {
-		 padding: 0 0 0 0;
-	 }
-
- }
-
 
 /*---------------------------------------------------
 ------- Media Queries for Split Layout Ends ---------
