@@ -400,7 +400,7 @@ p {}
 
 
 .image-bg .hero-section {
-	background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(../images/image-bg.jpg) no-repeat center center;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(../img/1.jpg) no-repeat center center;
 	background-size: cover;
 	padding: 150px 0 100px 0;
 }
