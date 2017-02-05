@@ -229,14 +229,18 @@
 
 .copyright{
 	background: #404041;
-	padding: 25px;
 	color: #FFF;
-	font-weight: 200;
-	line-height: 1.3;
+  	width: 100%;
+  	height: 100%;
+	overflow: hidden;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	
 }
 .copyright p{
 	font-size: 14px;
+	font-weight: 200;
+	line-height: 1.3;
 }
 
 
@@ -292,3 +296,15 @@
 	top: 6px;
 }
 /* ------- Bact-to-Top Section Styling Ends ------- */
+
+
+
+
+
+
+.space10{width: 100%; height: 10px;}
+.space20{width: 100%; height: 20px;}
+.space30{width: 100%; height: 30px;}
+.space40{width: 100%; height: 40px;}
+.space50{width: 100%; height: 50px;}
+.space60{width: 100%; height: 60px;}

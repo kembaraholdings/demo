@@ -398,6 +398,23 @@ p {}
 
 /* ----- Hero Section Styling Starts ----- */
 
+
+.image-bg .hero-section {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(../images/image-bg.jpg) no-repeat center center;
+	background-size: cover;
+	padding: 150px 0 100px 0;
+}
+
+.image-bg .hero-content h1 {
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+.image-bg .hero-content p {
+	color: #FFFFFF;
+}
+
+
 .hero-section {
 	height: 100%;
 	background: #FFFFFF;
@@ -405,7 +422,7 @@ p {}
 }
 
 .hero-content {
-	padding: 100px 0 100px 0;
+	padding: 50px 0 150px 0;
 	overflow: hidden;
 }
 
@@ -458,28 +475,6 @@ p {}
 
 
 
-/*-----------------------------------------------------
--------------- Image Bg Styling Starts ----------------
-------------------------------------------------------*/
-
-
-.image-bg .hero-section {
-	background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(../images/image-bg.jpg) no-repeat center center;
-	background-size: cover;
-	padding: 150px 0 100px 0;
-}
-
-.image-bg .hero-content h1 {
-	font-weight: 400;
-	color: #FFFFFF;
-}
-
-.image-bg .hero-content p {
-	color: #FFFFFF;
-}
-
-
-
 
 /*----------------------------------------------------
 ------------- All ------------------------------------
@@ -498,23 +493,6 @@ p {}
 		padding: 150px 0 100px 0;
 	}
 
-	.form .hero-section {
-		padding: 150px 0 50px 0;
-	}
-
-	.form .hero-content {
-		padding: 100px 0 100px 0;
-		overflow: hidden;
-	}
-
-	.form .hero-content h1 {
-		font-size: 54px;
-	}
-
-	.product .hero-content {
-		padding: 150px 0 100px 0;
-		text-align: left;
-	}
 
 	.hero-content h1 {
 		font-size: 48px;
@@ -529,50 +507,9 @@ p {}
 		font-size: 38px;
 	}
 
-	.software .hero-content h1 {
-		font-size: 42px;
-	}
-
 	.image-bg .hero-content h1 {
 		font-size: 54px;
 	}
-
-
-	.signup .hero-content h1 {
-		font-size: 48px;
-	}
-
-	.features .features-list {
-		padding: 100px 0 0 0;
-		text-align: left;
-	}
-
-	.features .features-list ul li {
-		font-size: 18px;
-		display: list-item;
-		text-align: left;
-	}
-
-
-	.software .features {
-		padding: 100px 0 100px 0;
-	}
-
-	.software .features .features-list h1 {
-		font-size: 34px;
-	}
-
-	.software .features .features-list {
-		padding: 30px 0 0 0;
-	}
-
-
-	.software .features .features-list ul li {
-		display: list-item;
-		font-size: 14px;
-		text-align: left;
-	}
-
 
 	.feature-sub {
 		padding: 200px 0 200px 0;
@@ -585,16 +522,6 @@ p {}
 	.software .feature-sub .sub-inner h1 {
 		font-size: 42px;
 	}
-
-	.split-content {
-		padding: 120px 100px 50px 10px;
-		text-align: left;
-	}
-
-	.split-content h1 {
-		font-size: 42px;
-	}
-
 
 	.pricing {
 		padding: 100px 0 100px 0;
