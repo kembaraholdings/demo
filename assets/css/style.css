@@ -101,12 +101,12 @@ p {}
 
 ::-moz-selection {
     color: #FFFFFF;
-    background: #3333CC;
+    background: #92714A;
 }
 
 ::selection {
     color: #FFFFFF;
-    background: #3333CC;
+    background: #92714A;
 }
 
 .nopadding {
@@ -121,17 +121,6 @@ p {}
 .no-margin {
 	margin-right: 0;
 	margin-left: 0;
-}
-
-
-.error-message {
-	color: #FF3333;
-	margin-top: 5px;
-}
-
-.success-message {
-	color:#009900;
-	margin-top: 5px;
 }
 
 #loading {
@@ -430,16 +419,12 @@ p {}
 	font-size: 34px;
 	font-weight: 400;
 	color: #262626;
-	line-height: 1.2;
 	letter-spacing: -1px;
 	margin: 0 0 20px 0;
 }
 
 .hero-content p {
-	font-size: 14px;
-	color: #A1A1A1;
 	font-weight: 400;
-	line-height: 1.5;
 	margin: 0 0 25px 0;
 }
 
@@ -449,7 +434,6 @@ p {}
  font-size: 13px;
  font-weight: 400;
  letter-spacing: 2px;
- line-height: 1;
  padding: 10px 21px;
  text-transform: uppercase;
  outline: none;
@@ -510,53 +494,6 @@ p {}
 	.image-bg .hero-content h1 {
 		font-size: 54px;
 	}
-
-	.feature-sub {
-		padding: 200px 0 200px 0;
-	}
-
-	.feature-sub .sub-inner h1 {
-		font-size: 42px;
-	}
-
-	.software .feature-sub .sub-inner h1 {
-		font-size: 42px;
-	}
-
-	.pricing {
-		padding: 100px 0 100px 0;
-	}
-
-	.pricing-content {
-		text-align: left;
-	}
-
-
-	.cta-inner {
-		max-width: 500px;
-		float: right;
-	}
-
-	.contact {
-		text-align: center;
-	}
-
-
-	.contact h1 {
-		font-size: 24px;
-	}
-
-	.contact p {
-		font-size: 16px !important;
-	}
-
-	.contact a {
-		font-size: 18px;
-	}
-
-}
-
-
 @media screen and (max-width: 399px) {
 
  .back-to-top {
