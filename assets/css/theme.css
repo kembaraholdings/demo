@@ -401,3 +401,343 @@
 
 
 /* ------- FORM Section Styling Ends ------- */
+
+
+
+/*------------------------------------------------------------------
+[Modules]
+*/
+
+.module,
+.module-sm,
+.module-xs {
+    background-color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    position: relative;
+    padding: 140px 0;
+}
+
+.module.divider-top,
+.module-sm.divider-top,
+.module-xs.divider-top {
+    border-top: 1px solid #eeeeee;
+}
+
+.module.divider-bottom,
+.module-sm.divider-bottom,
+.module-xs.divider-bottom {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.module.parallax,
+.module-sm.parallax,
+.module-xs.parallax {
+    background-color: transparent;
+}
+
+.module-sm {
+    padding: 70px 0;
+}
+
+.module-xs {
+    padding: 35px 0;
+}
+
+.module-header {
+    margin: 0 0 70px;
+}
+
+.module-header h1,
+.module-header .h1,
+.module-header h2,
+.module-header .h2,
+.module-header h3,
+.module-header .h3,
+.module-header h4,
+.module-header .h4,
+.module-header h5,
+.module-header .h5,
+.module-header h6,
+.module-header .h6 {
+    margin-bottom: 10px;
+}
+
+.no-gutter {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.no-gutter > [class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.pull-image .container {
+    position: relative;
+}
+
+.pull-image .container > div[class*='col-'] {
+    position: absolute;
+}
+
+.pull-image .vertical-middle {
+    position: relative;
+    top: 50%;
+    z-index: 2;
+    -webkit-transform: translate3d(0, -50%, 0);
+            transform: translate3d(0, -50%, 0);
+}
+
+.pull-image .pull-image-right {
+    right: 0;
+}
+
+@media (max-width: 990px) {
+    .pull-image .container div[class*='col-'] {
+        position: relative;
+        top: 0;
+        -webkit-transform: none;
+                transform: none;
+    }
+}
+
+.side-background {
+    position: relative;
+    padding: 0px;
+}
+
+.side-background .background-container {
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    padding: 0px;
+    top: 0px;
+}
+
+.side-background .background-side {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-size: cover !important;
+    z-index: 0;
+    background-position: 50% 50% !important;
+}
+
+.side-background .background-side.start-top {
+    background-position: 0% 0% !important;
+}
+
+.side-background .background-side.start-bottom {
+    background-position: 100% 0% !important;
+}
+
+.side-background .content-side {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+
+
+/*------------------------------------------------------------------
+[Portfolio]
+*/
+
+.filters {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.filters > li {
+    display: inline-block;
+    padding: 0 15px 35px;
+}
+
+.filters > li > a {
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    color: #333333;
+    padding: 1px 0;
+    opacity: 0.6;
+    -webkit-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+}
+
+.filters > li > a:hover,
+.filters > li > a.current {
+    border-color: #333333;
+    opacity: 1;
+}
+
+.works-grid.works-grid-gutter {
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+.works-grid.works-grid-gutter .work-item {
+    padding: 0 4px 8px 4px;
+}
+
+.works-grid .work-item {
+    width: 50%;
+}
+
+.works-grid.works-grid-3 .work-item {
+    width: 33.333333%;
+}
+
+.works-grid.works-grid-4 .work-item {
+    width: 25%;
+}
+
+.works-grid.works-grid-5 .work-item {
+    width: 20%;
+}
+
+.work-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.work-overlay {
+    border: none;
+    background: rgba(146, 127, 84, 0.8); 	
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    -webkit-transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1);
+            transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1);
+}
+
+.work-wrapper > img {
+    width: 100%;
+    -webkit-transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1);
+            transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1);
+}
+
+.work-caption {
+    -webkit-transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1);
+            transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1);
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    position: absolute;
+    padding: 40px;
+    width: 100%;
+    opacity: 0;
+    bottom: 0;
+}
+
+.work-title,
+.work-category {
+    color: #ffffff;
+}
+
+.work-title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.work-category {
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+.work-link {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+/* --- [ Base Hover ] --- */
+
+.work-item:hover .work-wrapper img {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+.work-item:hover .work-overlay {
+    opacity: 1;
+}
+
+.work-item:hover .work-caption {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+}
+
+/* --- [ Dark Hover Overlay ] --- */
+
+.works-grid-dark .work-overlay {
+    background: rgba(51, 51, 51, 0.9);
+}
+
+/* --- [ White Hover Overlay ] --- */
+
+.works-grid-white .work-overlay {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.works-grid-white .work-title,
+.works-grid-white .work-category {
+    color: #222222;
+}
+
+@media (max-width: 1023px) {
+    .works-grid .work-item,
+    .works-grid.works-grid-3 .work-item,
+    .works-grid.works-grid-4 .work-item,
+    .works-grid.works-grid-5 .work-item {
+        width: 50%;
+    }
+}
+
+@media (max-width: 568px) {
+    .works-grid .work-item,
+    .works-grid.works-grid-3 .work-item,
+    .works-grid.works-grid-4 .work-item,
+    .works-grid.works-grid-5 .work-item {
+        width: 100%;
+    }
+}
+
+.portfolio-info {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 35px;
+}
+
+.portfolio-info > li:not(:last-child) {
+    border-bottom: 1px solid #eee;
+    padding: 0 0 8px;
+    margin: 0 0 8px;
+}
+
+.portfolio-info h5 {
+    display: inline-block;
+    margin: 0 8px 0 0;
+}
+
+.portfolio-info .social-icons {
+    display: inline-block;
+}
